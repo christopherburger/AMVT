@@ -267,10 +267,9 @@ def simulate_photocopy_scan_cycles(input_image, output_image_path, cycles, image
         
 def main():
     
-    INPUT_FOLDER = "Circuit Problems"  # Replace with the path to your input folder
-                                  
-
-    OUTPUT_FOLDER = "perturbed_images" # Replace with your desired output folder path
+    INPUT_FOLDER = "Circuit Problems"  
+                        
+    OUTPUT_FOLDER = "perturbed_images" 
                                       
     
     # perturbed image filename suffix
@@ -359,5 +358,5 @@ def main():
     print(f"Processing complete. {processed_count} image(s) perturbed.")
 
 if __name__ == "__main__":
-    # This makes the script runnable from the command line
     main()
+
